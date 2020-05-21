@@ -13,7 +13,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/TM/git/google-vision.json"
 client = vision.ImageAnnotatorClient()
 
 # The name of the image file to annotate
-file_name = os.path.abspath('200dpi/200dpi_3.jpg')
+file_name = os.path.abspath('200dpi/400dpi_6_edit.jpg')
 
 # Loads the image into memory
 with io.open(file_name, 'rb') as image_file:
